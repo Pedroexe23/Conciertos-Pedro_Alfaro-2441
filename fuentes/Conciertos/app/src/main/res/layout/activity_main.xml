@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conciertos"
+            android:textSize="40sp"
+            ></TextView>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="@dimen/Margen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_del_artista"
+            android:layout_margin="@dimen/Margen"
+            android:textSize="@dimen/Titulo">
+
+
+        </TextView>
+
+        <EditText
+            android:layout_width="408dp"
+            android:layout_margin="@dimen/Margen"
+            android:layout_height="wrap_content"
+            android:id="@+id/NombreTxt"
+
+            >
+
+        </EditText>
+        <TextView
+            android:layout_margin="@dimen/Margen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha_del_evento"
+            android:textSize="@dimen/Titulo"
+            >
+
+        </TextView>
+        <EditText
+            android:layout_margin="@dimen/Margen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/FechaDate"
+            android:inputType="date"
+
+            >
+        </EditText>
+
+        <TextView
+            android:layout_margin="@dimen/Margen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/musica"
+            android:textSize="@dimen/Titulo">
+
+        </TextView>
+
+        <Spinner
+            android:id="@+id/Musica.sp"
+            android:layout_margin="@dimen/Margen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Musica">
+
+        </Spinner>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
