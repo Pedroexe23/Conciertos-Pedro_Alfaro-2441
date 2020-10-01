@@ -51,19 +51,19 @@ public class Concieto {
     public String toString(){
         String conclusion = new String();
         if (calificacion==1){
-            conclusion=Fecha+" "+Nombre+" "+precio+" "+"esto es una estafa";
+            conclusion=Fecha+" "+Nombre+" "+precio+" "+calificacion+" "+"esto es una estafa";
         }else if (calificacion==2){
-            conclusion=Fecha+" "+Nombre+" "+precio+" "+"apesta";
+            conclusion=Fecha+" "+Nombre+" "+precio+" "+calificacion+" "+"apesta";
         }else if (calificacion==3){
-            conclusion=Fecha+" "+Nombre+" "+precio+" "+"Aburrido";
+            conclusion=Fecha+" "+Nombre+" "+precio+" "+calificacion+" "+"Aburrido";
         }else if (calificacion==4){
-            conclusion=Fecha+" "+Nombre+" "+precio+" "+"Hay mejores";
+            conclusion=Fecha+" "+Nombre+" "+precio+" "+calificacion+" "+"Hay mejores";
         }else if (calificacion==5){
-            conclusion=Fecha+" "+Nombre+" "+precio+" "+"Bien";
+            conclusion=Fecha+" "+Nombre+" "+precio+" "+calificacion+" "+"Bien";
         }else if (calificacion==6){
-            conclusion=Fecha+" "+Nombre+" "+precio+" "+"Increible";
+            conclusion=Fecha+" "+Nombre+" "+precio+" "+calificacion+" "+"Increible";
         }else {
-            conclusion=Fecha+" "+Nombre+" "+precio+" "+"Exelente";
+            conclusion=Fecha+" "+Nombre+" "+precio+" "+calificacion+" "+"Exelente";
         }
         //return Fecha+""+Nombre+""+precio+""+calificacion;
         return conclusion;
